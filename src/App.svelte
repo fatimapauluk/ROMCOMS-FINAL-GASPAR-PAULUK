@@ -6,7 +6,7 @@
 
 
   let count;
-  let index = 0; // Inicializamos index
+  let index = 0; 
   let offset;
   let progress;
   let top = 0.1;
@@ -156,7 +156,7 @@
       stroke-linejoin="round"
     ></path>
 
-    <!-- Relleno dinámico con clipping -->
+    
     <defs>
       <!-- Gradiente para el relleno -->
       <linearGradient id="gradient" x1="0" y1="1" x2="0" y2="0">
@@ -184,6 +184,7 @@
   </svg>
 </div>
 </div>
+
 
     <div class="debug_scroller">
       <p class="p_debug">
@@ -225,7 +226,7 @@
 
           <div class="columns-container">
 
-            <!-- COLUMNA DERECHA --> 
+            <!-- COLUMNA izquierda --> 
             <div class="column">
               <p class="description">
                 Meet cute es una expresión que se refiere, en el cine y la TV, a 
@@ -254,7 +255,7 @@
               </div>
         <div class="vertical-divider"></div>
 
-<!-- COLUMNA IZQUIERDA --> 
+<!-- COLUMNA DERECHA --> 
 <div class="column">
   <p class="description">
     El primer encuentro entre el público y las rom-coms surge en los 
@@ -315,7 +316,7 @@
 
   <div class="columns-container">
 
-<!-- COLUMNA DERECHA --> 
+<!-- COLUMNA IZQ --> 
     <div class="column">
       <p class="description">
         El enamoramiento suele mostrarse a través de un "montage", una secuencia de <span class="highlight-green">momentos felices</span>. Este recurso permite resumir la evolución de la relación y transmitir al espectador la <span class="highlight-green">magia y emoción</span> de su vínculo en pocos minutos. Las situaciones que más frecuentemente aparecen en los montage son:
@@ -339,7 +340,7 @@
         </div>
 
         <div class="vertical-divider"></div>
-<!-- COLUMNA IZQ --> 
+<!-- COLUMNA DER --> 
         <div class="column">
           <p class="description">
             El boom de las comedias románticas se dio entre los <span class="highlight-green">años 80 y 2010</span>, marcando una <span class="highlight-green">época dorada</span> en la que este género se consolidó como favorito en el cine. Durante esta época, surgieron muchos <span class="highlight-green">actores famosos</span> a partir de comedias románticas. Algunos de ellos son:
@@ -450,7 +451,7 @@
 
   <div class="columns-container">
 
-<!-- COLUMNA DERECHA --> 
+<!-- COLUMNA IZQ --> 
     <div class="column">
       <p class="description">
         El conflicto es el momento que pone a prueba la relación entre los protagonistas, <span class="highlight-green">interrumpiendo la fase de enamoramiento</span>. A menudo, el conflicto lleva a una <span class="highlight-green">ruptura temporal </span>o a un <span class="highlight-green">distanciamiento</span>, que obliga a los protagonistas a reflexionar sobre sus sentimientos y lo que realmente desean.
@@ -474,7 +475,7 @@
         </div>
 
         <div class="vertical-divider"></div>
-<!-- COLUMNA IZQ --> 
+<!-- COLUMNA DER --> 
         <div class="column">
           <p class="description">
             A partir del fin de los 2000s, la producción de romcoms fue disminuyendo. Se genera una crisis en el género debido a diferentes factores <span class="highlight-green">sociales y tecnicos</span> que ocurrieron con la evolución del tiempo.
@@ -532,7 +533,7 @@
     </div>
   
   <div class="columns-container">
-    <!-- COLUMNA DERECHA -->
+    <!-- COLUMNA IZQ -->
     <div class="column">
       <p class="description">
         Este momento ocurre cuando <span class="highlight-green">uno de los protagonistas comprende que quiere estar con la otra persona</span>, marcando un punto clave tras el conflicto. Este instante de claridad va acompañado de una gran muestra de amor o "grand gesture" que busca reconciliar a la pareja.
@@ -557,7 +558,7 @@
 
     <div class="vertical-divider"></div>
 
-    <!-- COLUMNA IZQUIERDA -->
+    <!-- COLUMNA DER -->
     <div class="column">
       <div class="container-revelacion">
         <div class="izquierda-revelacion">
@@ -617,7 +618,7 @@
 
   <div class="columns-container">
 
-<!-- COLUMNA DERECHA --> 
+<!-- COLUMNA IZQ --> 
     <div class="column">
       <p class="description">
         El final feliz en las comedias románticas es el momento en que la pareja, <span class="highlight-green">tras superar conflictos</span>, se une de forma definitiva. Este cierre celebra la conexión entre los protagonistas y da una sensación de optimismo y satisfacción al público, reforzando la idea de que el amor puede superar cualquier obstáculo.
@@ -637,7 +638,7 @@
         </div>
 
         <div class="vertical-divider"></div>
-<!-- COLUMNA IZQ --> 
+<!-- COLUMNA DER --> 
         <div class="column">
           <p class="description">
             "Anyone But You" demostró que las comedias románticas clásicas de presupuesto medio aún pueden triunfar en el cine contemporáneo, demostrando que una historia genuina y personajes auténticos siguen siendo atractivos para el público.  </p>
@@ -665,7 +666,7 @@
 
   </Scroller>
 
-  <!-- PARTE MAS DATOS --> 
+
 
 
 
@@ -673,6 +674,7 @@
 
 </main>
 
+  <!-- PARTE MAS DATOS --> 
 <div class="final">
 
 
@@ -724,14 +726,6 @@
 </div>
 
 
-<!-- <div class="footer">
-  <span>Visualización de datos, UTDT</span>
-  <div>
-    <a href="https://twitter.com/paulukfatimalab" target="_blank">@paulukfatimalab</a>
-    <a href="https://twitter.com/labdezoe" target="_blank" style="margin-left: 1rem;">@labdezoe</a>
-  </div>
-</div>
--->
 
 <footer>
   <div class="footer-top">
@@ -778,7 +772,7 @@ header {
 
   .flecha {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
+  justify-content: center; 
   align-items: center; 
   margin-top: 150px;
 }
@@ -906,11 +900,7 @@ header {
   width: 100%;
 }
 
-/*HIGHLIGHT*/
 
- /* .highlight {
-    font-weight: bold;
-  }*/
 
   .highlight-green {
     color: #A4BE7B;
@@ -929,20 +919,20 @@ header {
   color: #FFB6C1;
   margin-bottom: 15px;
   font-size: 18px;
-  text-align: left;  /* Alineación a la izquierda */
+  text-align: left;  
 }
 
 
 .category ul {
-  list-style: disc;  /* Cambiado a bullets */
-  padding-left: 20px;  /* Espacio para los bullets */
+  list-style: disc;  
+  padding-left: 20px;  
   margin: 0;
 }
 
 .category li {
   margin-bottom: 10px;
   font-size: 18px;
-  text-align: left;  /* Alineación a la izquierda */
+  text-align: left;  
   color: #383838;
 }
 
@@ -985,8 +975,8 @@ header {
 
 .gif img {
   width: 550px; 
-  height: auto; /* Mantiene la proporción de la imagen */
-  display: block; /* Elimina el espacio inferior del comportamiento inline */
+  height: auto; 
+  display: block; 
   margin-bottom: 10px; 
   border-radius: 5px;
 
@@ -1011,11 +1001,11 @@ header {
 /* Estilo para el contenedor de gráficos de torta */
 .graficotorta {
   display: flex;
-  justify-content: space-between; /* Espacio uniforme entre gráficos */
-  gap: 20px; /* Espaciado entre los elementos */
-  width: 100%; /* Se ajusta al contenedor padre */
-  max-width: 600px; /* Limitar el ancho máximo del contenedor */
-  margin: 20px auto; /* Centrar el contenedor y añadir espacio vertical */
+  justify-content: space-between; 
+  gap: 20px; 
+  width: 100%; 
+  max-width: 600px; 
+  margin: 20px auto; 
   margin-top: 0px;
   margin-bottom: 50px;
 
@@ -1023,11 +1013,11 @@ header {
 
 /* Estilo individual para cada gráfico */
 .cadagrafico img {
-  width: 100%; /* Que las imágenes se ajusten al contenedor */
-  height: auto; /* Mantener proporción de las imágenes */
-  max-width: 300px; /* Tamaño máximo por gráfico */
-  display: block; /* Evitar comportamiento inline */
-  margin: 0 auto; /* Centrar dentro de su contenedor */
+  width: 100%; 
+  height: auto; 
+  max-width: 300px; 
+  display: block; 
+  margin: 0 auto; 
 }
 
 .graficolargo {
@@ -1039,9 +1029,9 @@ header {
 
 /* Estilo para el gráfico largo */
 .graficolargo img {
-  width: 100%; /* Ajustar al contenedor */
-  max-width: 600px; /* Limitar el ancho máximo */
-  height: auto; /* Mantener proporción */
+  width: 100%; 
+  max-width: 600px; 
+  height: auto; 
   display: block;
 }
 
@@ -1166,7 +1156,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f9f9f9; /* Ajusta según tu diseño */
+    background-color: #f9f9f9; 
     margin: 0;
     
   }
@@ -1178,15 +1168,12 @@ header {
 
   .lineend {
     width: 1px;
-    height: 80px; /* Ajusta la altura según necesites */
-    background-color: #000000; /* Color de la línea */
-    margin-bottom: 20px; /* Espaciado entre la línea y la imagen */
+    height: 80px; 
+    background-color: #000000; 
+    margin-bottom: 20px; 
   }
 
- /*  .image {
-    max-width: 100%; Asegura que sea responsiva 
-    height: auto;
-  }*/
+
 
 .descripciongrafico{
   text-align: center;
@@ -1243,12 +1230,12 @@ header {
 }
 
 .category li::marker {
-  color: #A5B82E; /* Color de los puntos */
+  color: #A5B82E; 
 }
 
 
   .footer-top {
-    background-color: #ffe4e6; /* Rosa claro */
+    background-color: #ffe4e6; 
     padding: 1.5rem;
     margin-top: 2rem;
 
@@ -1267,7 +1254,7 @@ header {
   }
 
   .content {
-    background-color: #FAFAF9; /* Rosa claro */
+    background-color: #FAFAF9; 
     border: 2px dashed black;
     padding: 30px;
     display: flex;
@@ -1329,7 +1316,7 @@ header {
     .categories-container {
       display: flex;
 
-      gap: 70px;  /* Aumentado el espacio entre columnas */
+      gap: 70px;  
       width: 100%;
       margin-top: 20px;
       margin-bottom: 20px;
