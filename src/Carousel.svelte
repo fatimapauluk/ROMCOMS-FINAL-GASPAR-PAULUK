@@ -53,7 +53,7 @@
     }
 
     .carousel::-webkit-scrollbar {
-        display: none; /* Oculta la barra de desplazamiento en WebKit */
+        display: none; 
     }
 
     /* Estilos de los ítems */
@@ -77,7 +77,7 @@
     .item:hover {
         transform: scale(1.2);
         box-shadow: 0 4px 15px rgba(250, 250, 249, 0.5);
-        z-index: 5; /* Prioridad visual */
+        z-index: 5; 
     }
 
     /* Estilo del texto superpuesto */
